@@ -7476,7 +7476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f48322fb8be2a4faeca42ff015cdd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AudioSource: {fileID: 516369745}
 --- !u!82 &516369745
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8153,8 +8152,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -531, y: 268}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -358, y: 219}
+  m_SizeDelta: {x: 624.3135, y: 101.316}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &673831557
 MonoBehaviour:
@@ -8178,11 +8177,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7a409fc902ffe17468c50e9f958488e6, type: 3}
-    m_FontSize: 14
+    m_FontSize: 64
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 64
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
