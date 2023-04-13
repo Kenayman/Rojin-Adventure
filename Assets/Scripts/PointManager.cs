@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PointManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource audios;
     [SerializeField] private Text score;
     private int cruxes = 0;
 
@@ -19,6 +20,7 @@ public class PointManager : MonoBehaviour
             Destroy(collision.gameObject);
             cruxes++;
             score.text = "Score: " + cruxes;
+            audios.Play();
         }
     }
 

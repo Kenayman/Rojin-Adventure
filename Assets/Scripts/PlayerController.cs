@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float jumpSpeed = 10f;
     [SerializeField] private float moveForce = 3f;
+    [SerializeField] private AudioSource jump;
     [SerializeField] private LayerMask jumpable;
 
     private enum MovementState { idle, running, jumping, falling, attack }
@@ -37,6 +38,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             playerRb.AddForce(new Vector2(0f, jumpSpeed), ForceMode2D.Impulse);
+            jump.Play();
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
